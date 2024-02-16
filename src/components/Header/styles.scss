@@ -1,0 +1,27 @@
+$AzulCeleste: #79B8F3;
+$AzulClaro: #AED9F7;
+$AzulPrussiaSuave: #467396;
+$Branco: #FFFFFF;
+$CinzaClaro: #F2F2F2;
+$CinzaMaisClaro: #9e9e9e;
+
+$AzulPrussia: #004953;
+$AzulEscuro: #0E2941;
+$AzulMedio: #1D536B;
+$CianoEscuro: #006E8C;
+$CinzaEscuro: #333333;
+
+.header {
+    background-color: $CinzaMaisClaro;
+
+    width: 100vw;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+
+    &div {
+        display: flex;
+        float: right;
+    }
+}
